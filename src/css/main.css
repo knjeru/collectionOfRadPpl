@@ -32,6 +32,12 @@ input:invalid:focus {
     box-shadow: 0 0 5px rgba(171, 7, 7, .6);
 }
 
+.signup input:valid:focus {
+  outline: none;
+  border-color: rgba(47, 201, 72, .6);
+  box-shadow: 0 0 5px rgba(47, 201, 72, .6);
+}
+
 /*Homepage hover */
 
 .homepage-hover {
